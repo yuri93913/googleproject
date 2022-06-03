@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+
+}
+
+body {
+    width: 40vw;
+    margin: 0 auto;
+
+
+}
+
+.google {
+
+    margin-bottom: 1rem;
+}
+
+.search {
+    margin-bottom: 1rem;
+}
+
+.search i {
+    position: relative;
+    right: 2rem;
+    color: rgb(118, 118, 118);
+    padding: 0.4rem;
+}
+
+#search {
+    width: 500px;
+    padding: 0.3rem;
+    border: 1px solid rgb(118, 118, 118);
+    ;
+    padding-inline-start: 16px;
+    margin-bottom: 0.3rem;
+}
+
+#buton {
+    background-color: white;
+    color: rgb(118, 118, 118);
+    width: 200px;
+    padding: 00.3rem;
+    border: 1px solid rgb(118, 118, 118);
+    ;
+
+
+}
+
+#buton:hover {
+    background-color: rgb(118, 118, 118);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.spot {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.kutu1 ul,
+.kutu2 ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+
+}
+
+.kutu1 .text {
+    color: rgb(118, 118, 118);
+    font-weight: bold;
+}
+
+.kutu2 {
+    margin-left: 2rem;
+}
+
+.kutu3 #email {
+    width: 400px;
+    padding: 0.3rem;
+    padding-inline-start: 16px;
+}
+
+.kutu3 .mailbuton {
+    padding: 0.3rem;
+    background-color: white;
+    color: rgb(118, 118, 118);
+    border: 1px solid rgb(118, 118, 118);
+}
+
+.kutu3 .mailbuton:hover {
+    background-color: rgb(118, 118, 118);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.kutu3 span {
+    color: rgb(118, 118, 118);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(118, 118, 118);
+    transition-duration: 0.3s;
+}
